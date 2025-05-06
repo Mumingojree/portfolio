@@ -618,3 +618,20 @@ footer{
         width: 100%;
     }
 }
+#tic{
+    outline: none;
+    border: none;
+    width: max-content;
+    transition: .3s ease all;
+    padding: 5px;
+    border-radius: 5px;
+}
+#tic:hover{
+    background: var(--color-white);
+}
+#tic a{
+    font-weight: 500;
+    color: #777;
+    position: relative;
+    text-decoration: none;
+}
